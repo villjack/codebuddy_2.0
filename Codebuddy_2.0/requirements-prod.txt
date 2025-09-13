@@ -1,0 +1,18 @@
+# Production Requirements
+-r base.txt
+
+# Production Server
+gunicorn==21.2.0
+gevent==23.7.0
+
+# Monitoring & Logging
+sentry-sdk==1.32.0
+structlog==23.1.0
+
+# Performance
+django-cachalot==2.5.1
+django-compressor==4.4
+
+# Security
+django-csp==3.7
+django-security==1.20.0

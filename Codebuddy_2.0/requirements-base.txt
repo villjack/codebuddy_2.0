@@ -1,0 +1,41 @@
+# CodeBuddy Platform Requirements
+
+# Django Framework
+Django==4.2.5
+djangorestframework==3.14.0
+django-cors-headers==4.3.0
+django-allauth==0.54.0
+
+# Database
+psycopg2-binary==2.9.7
+redis==4.6.0
+
+# WebSocket Support
+channels==4.0.0
+channels-redis==4.1.0
+
+# Authentication & Security
+django-otp==1.2.2
+qrcode==7.4.2
+Pillow==10.0.0
+django-ratelimit==4.0.0
+
+# API & Serialization
+djangorestframework-simplejwt==5.3.0
+django-filter==23.2
+
+# File Handling
+django-storages==1.14.2
+boto3==1.28.57
+
+# Background Tasks
+celery==5.3.1
+django-celery-beat==2.5.0
+
+# Environment Variables
+python-decouple==3.8
+dj-database-url==2.1.0
+
+# Utilities
+Faker==19.6.2
+python-slugify==8.0.1
